@@ -21,3 +21,8 @@ This program is designed to emulate hypothetical computer than runs a language c
 - ttBranchNegative 41 : Branch to a specific location in memory IFF (If and only if) the value in the accumulator is negative
 - ttBranchZero 42 : Branch to a specific location in memory IFF the value in the ccumulator is Zero.
 - ttHalt 43 : Halt - The program has completed its task.
+
+
+### Notes
+When writing a file for the emulator to read, do not indclude empty lines (lines consisting of the emtpy character) . There may be issues when attempting to run the emulator on versions of C++ older than C++14, and
+when running on linux based systems. 

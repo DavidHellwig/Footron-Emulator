@@ -1,0 +1,11 @@
+﻿  Accumulator.cpp
+  CPU.cpp
+  FileReader.cpp
+  FooTronEmulator.cpp
+  Memory.cpp
+C:\Users\David\Documents\C++Files\RESUME WORK\Footron-Emulator\FooTronEmulator\FooTronEmulator\Memory.cpp(13,34): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  ProgramCounter.cpp
+C:\Users\David\Documents\C++Files\RESUME WORK\Footron-Emulator\FooTronEmulator\FooTronEmulator\ProgramCounter.cpp(15,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Tron.cpp
+  Generating Code...
+  FooTronEmulator.vcxproj -> C:\Users\David\Documents\C++Files\RESUME WORK\Footron-Emulator\FooTronEmulator\x64\Debug\FooTronEmulator.exe
