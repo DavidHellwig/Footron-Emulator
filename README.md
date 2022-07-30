@@ -9,6 +9,7 @@ This program is designed to emulate hypothetical computer than runs a language c
 - Reads txt files to obtain instructions (limited to files within project folder)
 
 ### Instruction Set
+When writing a file for the emulator to read, do not include empty lines
 - ttRead 10 : Read a word from the keyboard into a specific location in memory. 
 - ttWrite 11 : Write a word from a specific memory location.
 - ttLoad 20 : Load a word from a specific location in memory into the accumulator  
@@ -21,3 +22,8 @@ This program is designed to emulate hypothetical computer than runs a language c
 - ttBranchNegative 41 : Branch to a specific location in memory IFF (If and only if) the value in the accumulator is negative
 - ttBranchZero 42 : Branch to a specific location in memory IFF the value in the ccumulator is Zero.
 - ttHalt 43 : Halt - The program has completed its task.
+
+
+### Notes
+This emulator is currently implemented as Visual Studio solution. There may be issues when attempting to run the emulator on versions of C++ older than C++14, and
+when running on linux based systems. 
